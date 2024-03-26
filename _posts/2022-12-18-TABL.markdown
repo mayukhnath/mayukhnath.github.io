@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "High Performance BLDC/PMSM Motor Development Board"
+title:  "True Automatic Bed Leveling for 3D Printers"
 date:   2024-03-25 16:16:42 -0400
 categories: projects
 ---
