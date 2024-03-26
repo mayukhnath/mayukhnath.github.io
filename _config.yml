@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mayukh Nath
+title: Mayukh Nath's Project Portfolio
 email: mayuhk.n@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -48,6 +48,19 @@ defaults:
       comments: true
       share: true
       related: true
+
+
+# Site Author
+author:
+  name             : "Mayukh Nath"
+  avatar           : "/pictures/headshot.jpg"
+  bio              : "I am an engineering student currently pursing a Master's in Embedded Systems..."
+  location         : "Novi, Michigan"
+  email            :
+  links:
+    - label: "Email"
+      icon: "mayukh.n@gmail.com"
+      # url: "mailto:your.name@email.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
