@@ -4,12 +4,25 @@ title:  "True Automatic Bed Leveling for 3D Printers"
 date:   2024-03-25 16:16:42 -0400
 categories: projects
 ---
-
+![TABL](/pictures/tabl.png)
 
 ## Introduction
+The ideal 3D printer should have a user experience similar to that of a typical inkjet printer: the user sends a file, and the printer prints it. There should be no calibration, cleaning, or other requirements of frequent maintenance. One of the forms of maintenance that plagues 3D printing is the need to level the bed (the surface on which the 3D printer deposits molten plastic) so that it is flat with respect to the gantry (moving head) of the 3D printer. While there are many existing solutions for this, most of them address the issue through sofware compensation rather than actually tramming the bed. This results in parts that are not flat on the bottom. The solution presented in this project allows for true automatic bed leveling, bringing the 3D printer user experience one step closer to that of inkjet printers.
 
+## Objectives
+- Create mechanical linkage that allows the 3D printer bed to tilt in 2 degrees of freedom
+- Actuate the linkage with a resolution < 0.01mm
+- Provide unified user interface that integrates both bed leveling and regular printing functions
+- Budget of $200, total bill of materials (B.O.M.) cost of < $100 
+- Show live demonstration by using a pen to make (2D) plots on paper using the 3D printer (this only takes a few minutes, while 3D printing takes hours)
+
+## Outcomes
+- Successfully met the project objectives and had a working demonstration
+- Final total B.O.M. cost: $84.75 (not including the 3D printer itself)
 
 ## Design
-
-### Features
-- 
+- Used only custom 3D printed parts, mechanical hardware (scews, nuts, etc.), and commercially available parts- no machining required.
+- Magnetic ball and pin kinematic contraints (inspired by the Rat Rig V-Core 3)
+- Custom Raspberry Pi Hat to both drive the actuators and power the Raspberry Pi off of a 12/24V supply
+- Commercial micro linear actuators (which integrate a small stepper motor, gearbox, and lead screw)
+- Commercial 3D printer bed height sensor: BLTouch
