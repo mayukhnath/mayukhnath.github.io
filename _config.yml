@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mayukh Nath's Project Portfolio
-email: mayuhk.n@gmail.com
+email: mayukh.n@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -35,6 +35,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 #  - jekyll-remote-theme
+atom_feed:
+  hide: true
 
 defaults:
   # _posts
@@ -54,12 +56,12 @@ defaults:
 author:
   name             : "Mayukh Nath"
   avatar           : "/pictures/headshot.jpg"
-  bio              : "I am an engineering student currently pursing a Master's in Embedded Systems..."
+  bio              : "I am a Computer Engineer currently pursing a Master's in Embedded Systems. I have a passion for space systems, custom electronics, and motor controllers."
   location         : "Novi, Michigan"
-  email            :
+  email            : "mayukh.n@gmail.com"
   links:
-    - label: "Email"
-      icon: "mayukh.n@gmail.com"
+    #- label: "Email"
+    # icon: "mayukh.n@gmail.com"
       # url: "mailto:your.name@email.com"
 
 # Exclude from processing.

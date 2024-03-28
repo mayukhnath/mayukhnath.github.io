@@ -3,6 +3,8 @@ layout: posts
 title:  "High Performance BLDC/PMSM Motor Development Board"
 date:   2024-03-25 16:16:42 -0400
 categories: projects
+header: 
+  teaser: "/pictures/stspin.jpg"
 ---
 
 ![Motor Driver](/pictures/stspin.jpg)
@@ -10,12 +12,18 @@ categories: projects
 ## Introduction
 The STMicroeletronics STSPIN32G4 is an impressive chip with a high level of integration. It contains an ARM® Cortex®-M4 microcontroller, a high performance gate driver, and both a buck converter and linear regulator. Given the potential to reduce packaging footprint as well as materials cost, it is a compelling choice for custom brushless DC (BLDC) or permanent magnet synchronous motor (PMSM) driver solutions. This project is a development board that houses the STSPIN32G4 along with a high peformance power stage and interface/communication circuitry. 
 
-## Design
-The goal of this device is to allow us to explore the capabillites of the STSPIN32G4 in various applications. Therefore, it is designed to support a broad range of configurations. It supports any control topology for 3 phase motors (excluding salient PMSM control). Furthermore, it has the ability to integrate current, velocity, or position based control loops. It provides the option of using either 6 individual or 6 parallel pairs of MOSFETS for applications up to 50 Volts and 30 Amps. Lastly, it supports a broad range of communication interfaces for control input as well as communication with peripherals such as encoders. 
+## Objectives
+- Allow for evaluatioon of STSPIN32G4 gate capabillities in myriad configurations
+- Provide relevant digital interfaces for control input and peripheral support (e.g. encoders)
+- Integrate tunable power stage capable of driving a motor at up to 50V, 30A continuous
+- Support trapezoidal, sinusoidal, or field oriented control (FOC) control schemes
 
-### Features
-- Capable of trapezoidal, sinusoidal, or field oriented control (FOC) control schemes
+## Design
+- 6 layer PCB and low resistance MOSFETS allowing for up to 30A continous current
 - CAN bus, USB, RS485, RS422, SPI, I2C, UART, and PWM communication interfaces
 - Precision inline current sensing amplifiers, allowing for up to 100% duty cycle operation
-- 6 layer PCB and low resistance MOSFETS allowing for up to 30A continous current
 - RGB LED with dedicated timers for feedback
+
+## Outcomes
+- Successfully fabricated, assembled, and powered the PCB
+

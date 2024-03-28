@@ -3,6 +3,8 @@ layout: posts
 title:  "True Automatic Bed Leveling for 3D Printers"
 date:   2024-03-25 16:16:42 -0400
 categories: projects
+header: 
+  teaser: "/pictures/tabl.png"
 ---
 ![TABL](/pictures/tabl.png)
 
