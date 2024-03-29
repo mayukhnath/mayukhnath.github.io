@@ -28,3 +28,6 @@ The ideal 3D printer should have a user experience similar to that of a typical 
 - Custom Raspberry Pi Hat to both drive the actuators and power the Raspberry Pi off of a 12/24V supply
 - Commercial micro linear actuators (which integrate a small stepper motor, gearbox, and lead screw)
 - Commercial 3D printer bed height sensor: BLTouch
+
+## Demo Video
+{% include video id="1dyl1lTTjsgZLY3Lt6y-we85jEC2EUYP-" provider="google-drive" %}
