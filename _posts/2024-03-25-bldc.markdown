@@ -10,7 +10,7 @@ header:
 ![Motor Driver](/pictures/stspin.jpg)
 
 ## Introduction
-The STMicroeletronics STSPIN32G4 is an impressive chip with a high level of integration. It contains an ARM® Cortex®-M4 microcontroller, a high performance gate driver, and both a buck converter and linear regulator. Given the potential to reduce packaging footprint as well as materials cost, it is a compelling choice for custom brushless DC (BLDC) or permanent magnet synchronous motor (PMSM) driver solutions. This project is a development board that houses the STSPIN32G4 along with a high peformance power stage and interface/communication circuitry. 
+The STMicroelectronics STSPIN32G4 is an impressive chip with a high level of integration. It contains an ARM® Cortex®-M4 microcontroller, a high performance gate driver, and both a buck converter and linear regulator. Given the chip's potential to reduce packaging footprint as well as materials cost, it is a compelling choice for custom brushless DC (BLDC) or permanent magnet synchronous motor (PMSM) driver solutions. This project is a development board that houses the STSPIN32G4 along with a high performance power stage and interface/communication circuitry. 
 
 ## Objectives
 - Allow for evaluation of STSPIN32G4 capabilities in multiple configurations
